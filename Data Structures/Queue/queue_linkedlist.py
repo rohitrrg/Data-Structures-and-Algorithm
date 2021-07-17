@@ -32,10 +32,10 @@ class Queue:
 
         if self.front == None:
             self.rear == None
-    
+
     def que_front(self):
         return self.front.data
-    
+
     def que_rear(self):
         return self.rear.data
 

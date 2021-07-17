@@ -23,7 +23,7 @@ class Queue:
         self.Q[self.rear] = item
         self.size = self.size + 1
         print('%s enqueued to the queue'%str(item))
-    
+
     # Function to remove an item from queue
     # it changes front and size
     def DeQueue(self):
