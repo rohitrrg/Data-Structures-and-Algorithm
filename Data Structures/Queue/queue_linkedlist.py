@@ -19,8 +19,8 @@ class Queue:
             return
         self.rear.next = temp
         self.rear = temp
-        
-    
+
+
     def DeQueue(self):
         if self.isEmpty():
             print('Queue is Empty')
