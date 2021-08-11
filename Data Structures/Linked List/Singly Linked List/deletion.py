@@ -48,7 +48,7 @@ class LinkedList:
         temp = self.head
         while temp.next.next is not None:
             temp = temp.next
-        
+
         temp.next = None
     
     def detele_by_value(self, value):
@@ -109,7 +109,7 @@ class LinkedList:
         # therefore, only 
         # self.head = None
         # would also delete the linked list
-        
+
 
 if __name__ == '__main__':
 

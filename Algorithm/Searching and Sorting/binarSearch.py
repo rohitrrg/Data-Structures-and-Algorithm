@@ -9,8 +9,7 @@ def binarySearch(arr, l, r, x):
         
         else:
             return binarySearch(arr, mid+1, r, x)
-    else:
-        return -1
+    return -1
 
 arr = [2,3,4,10,40]
 x = 10

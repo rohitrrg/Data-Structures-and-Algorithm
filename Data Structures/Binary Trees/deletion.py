@@ -1,6 +1,3 @@
-from typing import Text
-
-
 class Node:
     def __init__(self, key):
         self.left = None
