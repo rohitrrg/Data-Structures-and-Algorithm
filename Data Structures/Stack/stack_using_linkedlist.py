@@ -31,7 +31,7 @@ class Stack:
         popped = temp.data
         return popped
 
-    # returns the top items from the stack
+    # returns the top items from the stack  
     def peek(self):
         if self.isEmpty():
             return float("-inf")

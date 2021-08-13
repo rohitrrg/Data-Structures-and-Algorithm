@@ -20,8 +20,7 @@ def insert(temp, key):
     q.append(temp)
 
     while len(q):
-        temp = q[0]
-        q.pop(0)
+        temp = q.pop(0)
         if (not temp.left):
             temp.left = Node(key)
             break
