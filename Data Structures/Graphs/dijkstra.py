@@ -21,7 +21,7 @@ class Graph:
         dist[src] = 0
         sptSet = [False]*self.V
 
-        for cout in range(self.V):
+        for _ in range(self.V):
             u = self.minDistance(dist, sptSet)
             sptSet[u] = True
             for v in range(self.V):
