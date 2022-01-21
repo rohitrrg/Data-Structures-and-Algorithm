@@ -24,13 +24,13 @@ class LinkedList:
         if self.head is None:
             self.head = new_node
             return
-        
+
         temp = self.head
         while temp.next is not None:
             temp = temp.next
 
         temp.next = new_node
-    
+
     def delete_at_start(self):
 
         if self.head is None:
